@@ -9,14 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "iron-session": "^8.0.3",
+    "mongodb": "^6.8.1",
+    "next": "14.2.9",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.9"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.9"
+    "eslint-config-next": "14.2.9",
+    "flowbite-typography": "^1.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.11"
+  },
+  "browser": {
+    "fs": false,
+    "child_process": false
   }
 }
